@@ -65,8 +65,8 @@
   // 🧪 Code Runner
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
-    "cpp": "g++ -std=c++17 -O2 $fileName -o $fileNameWithoutExt && $fileNameWithoutExt"
-  },
+    "cpp": "g++ -std=c++17 -O2 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+   },
 
   // 🧾 Language Defaults
   "[cpp]": {
@@ -97,5 +97,12 @@
   "C_Cpp.formatting": "disabled",
   "C_Cpp.clang_format_style": "Visual Studio",
   "C_Cpp.clang_format_fallbackStyle": "none",
-  "C_Cpp.codeAnalysis.clangTidy.codeAction.formatFixes": false
+  "C_Cpp.codeAnalysis.clangTidy.codeAction.formatFixes": false,
+  "files.exclude": {
+    "**/*.bin": true,
+    "**/*.exe": true,
+    "**/a.out": true
+},
+"chat.agent.enabled": false,
+"chat.agent.codeBlockProgress": false
 }
