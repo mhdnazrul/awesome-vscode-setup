@@ -114,7 +114,7 @@
 
   // 💻 Competitive Programming Helpers
   "cph.general.defaultLanguage": "cpp",
-  "cph.general.defaultLanguageTemplateFileLocation": "~/.config/vscode-cp/template.cpp",
+  "cph.general.defaultLanguageTemplateFileLocation": "${userHome}/.config/vscode-cp/template.cpp",
   "C_Cpp.default.cppStandard": "c++17",
 
   // 🚫 Disable Built-in Formatters
