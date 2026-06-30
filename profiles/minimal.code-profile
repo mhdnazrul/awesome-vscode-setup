@@ -1,1 +1,5 @@
-{}
+{
+  "name": "Minimal",
+  "settings": "{\n  \"editor.minimap.enabled\": false,\n  \"editor.renderWhitespace\": \"selection\",\n  \"editor.codeLens\": false,\n  \"editor.hover.enabled\": false,\n  \"editor.occurrencesHighlight\": \"off\",\n  \"workbench.activityBar.location\": \"hidden\",\n  \"workbench.statusBar.visible\": false,\n  \"breadcrumbs.enabled\": false\n}",
+  "extensions": "{}"
+}

@@ -1,1 +1,5 @@
-{}
+{
+  "name": "Python Development",
+  "settings": "{\n  \"[python]\": {\n    \"editor.defaultFormatter\": \"ms-python.black-formatter\",\n    \"editor.formatOnSave\": true\n  },\n  \"python.analysis.typeCheckingMode\": \"basic\",\n  \"python.testing.pytestEnabled\": true,\n  \"python.testing.unittestEnabled\": false,\n  \"python.linting.enabled\": true\n}",
+  "extensions": "{\n  \"ms-python.python\": {},\n  \"ms-python.black-formatter\": {},\n  \"charliermarsh.ruff\": {}\n}"
+}

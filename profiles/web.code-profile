@@ -1,1 +1,5 @@
-{}
+{
+  "name": "Web Development",
+  "settings": "{\n  \"[javascript]\": {\n    \"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n    \"editor.formatOnSave\": true\n  },\n  \"[typescript]\": {\n    \"editor.defaultFormatter\": \"esbenp.prettier-vscode\",\n    \"editor.formatOnSave\": true\n  },\n  \"[html]\": {\n    \"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n  },\n  \"[css]\": {\n    \"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n  },\n  \"[scss]\": {\n    \"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n  },\n  \"liveServer.settings.donotShowInfoMsg\": true\n}",
+  "extensions": "{\n  \"esbenp.prettier-vscode\": {},\n  \"ritwickdey.LiveServer\": {},\n  \"glenn2223.live-sass-compiler\": {},\n  \"formulahendry.auto-close-tag\": {}\n}"
+}
