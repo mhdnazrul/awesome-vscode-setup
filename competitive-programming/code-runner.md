@@ -9,7 +9,7 @@ Add these to your `.vscode/settings.json`:
 ```json
 {
   "code-runner.executorMap": {
-    "cpp": "cd $dir && g++ -std=c++17 -O2 -Wall -DLOCAL $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+    "cpp": "g++ -std=c++17 -O2 -Wall -DLOCAL $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
     "python": "cd $dir && python $fileName",
     "javascript": "cd $dir && node $fileName",
     "typescript": "cd $dir && npx ts-node $fileName"
