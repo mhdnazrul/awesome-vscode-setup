@@ -8,7 +8,7 @@
 ## Clone
 
 ```bash
-git clone https://github.com/YOUR_USER/awesome-vscode-setup.git
+git clone https://github.com/mhdnazrul/awesome-vscode-setup.git
 cd awesome-vscode-setup
 ```
 

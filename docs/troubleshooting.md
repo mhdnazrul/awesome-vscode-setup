@@ -98,7 +98,7 @@ chmod +x scripts/setup.sh
 
 ## Still stuck?
 
-Open an issue at [github.com/YOUR_USER/awesome-vscode-setup/issues](https://github.com/YOUR_USER/awesome-vscode-setup/issues) with:
+Open an issue at [github.com/mhdnazrul/awesome-vscode-setup/issues](https://github.com/mhdnazrul/awesome-vscode-setup/issues) with:
 - Your OS and VS Code version
 - The command you ran and its output
 - What you expected to happen
