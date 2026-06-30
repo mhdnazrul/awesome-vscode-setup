@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "EliverLara.andromeda",
+    "PKief.material-icon-theme",
+    "hoovercj.vscode-power-mode",
+    "esbenp.prettier-vscode",
+    "ms-vscode.cpptools",
+    "ms-python.python",
+    "ritwickdey.LiveServer",
+    "glenn2223.live-sass-compiler",
+    "formulahendry.code-runner",
+    "formulahendry.auto-close-tag",
+    "hediet.vscode-drawio",
+    "github.copilot"
+  ]
+}
