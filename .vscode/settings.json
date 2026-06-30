@@ -1,0 +1,127 @@
+{
+  // 🌈 UI & Theme
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ff4500",
+    "editorGroupHeader.tabsBackground": "#2c2c54",
+    "activityBar.background": "#2c2c54",
+    "sideBar.background": "#141422",
+    "tab.activeBackground": "#706fd3",
+    "tab.inactiveBackground": "#191846",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+    "statusBar.background": "#474787",
+    "scrollbarSlider.background": "#474787",
+    "scrollbarSlider.hoverBackground": "#706fd3"
+  },
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+
+  // 🔒 Privacy
+  "telemetry.telemetryLevel": "off",
+
+  // 🧑‍💻 Editor Core
+  "editor.fontFamily": "JetBrains Mono, Consolas, Courier New, monospace",
+  "editor.fontSize": 18,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.detectIndentation": false,
+  "prettier.tabWidth": 4,
+
+  // 🧩 Typing Helpers
+  "editor.autoClosingQuotes": "beforeWhitespace",
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.autoIndent": "advanced",
+  "editor.suggestSelection": "first",
+  "editor.matchBrackets": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // 🎯 Code Navigation
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.codeLens": false,
+  "editor.hover.enabled": "off",
+  "editor.linkedEditing": true,
+
+  // 💾 Files & Saving
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // ⚡ Performance
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.exclude": {
+    "**/*.bin": true,
+    "**/*.exe": true,
+    "**/a.out": true
+  },
+
+  // 🚫 Formatting (TURNED OFF FOR CP)
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+
+  // 🛠 Terminal Setup
+  "terminal.integrated.fontFamily": "JetBrains Mono, Cascadia Code PL, monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // 🧪 Code Runner
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "g++ -std=c++17 -O2 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+  },
+
+  // 🧾 Language Defaults
+  "[cpp]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 🔗 Git Integration
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // 💻 Competitive Programming Helpers
+  "cph.general.defaultLanguage": "cpp",
+  "cph.general.defaultLanguageTemplateFileLocation": "~/.config/vscode-cp/template.cpp",
+  "C_Cpp.default.cppStandard": "c++17",
+
+  // 🚫 Disable Built-in Formatters
+  "C_Cpp.formatting": "disabled",
+  "C_Cpp.clang_format_style": "Visual Studio",
+  "C_Cpp.clang_format_fallbackStyle": "none",
+  "C_Cpp.codeAnalysis.clangTidy.codeAction.formatFixes": false,
+  "chat.agent.enabled": false,
+  "chat.agent.codeBlockProgress": false
+}
